@@ -1,0 +1,72 @@
+.facility-dashboard {
+  padding: 20px;
+}
+
+.facility-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); /* Adjusted column width */
+  grid-gap: 30px; /* Increased gap between cards */
+}
+
+.facility-cards {
+  display: grid;
+  margin-left: 70px;
+  margin-top: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  justify-content: center;
+}
+
+.facility-card {
+  width: 400px; /* Adjusted card width */
+  border: 1px solid #ddd;
+  border-radius: 10px; /* Increased border radius for a rounded look */
+  padding: 25px; /* Increased padding */
+  background-color: #f9f9f9; /* Light background color */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Enhanced box shadow */
+  transition: box-shadow 0.3s ease;
+}
+
+.facility-card:hover {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Larger box shadow on hover */
+}
+
+
+.facility-card:hover {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Larger box shadow on hover */
+}
+
+.facility-card h3 {
+  margin-top: 0;
+  color: #333;
+  font-size: 1.5rem; /* Increased heading font size */
+}
+
+.facility-card p {
+  margin-bottom: 15px; /* Increased margin between paragraphs */
+  color: #555; /* Slightly darker text color */
+}
+
+.facility-link {
+  display: inline-block;
+  padding: 10px 20px; /* Increased button padding */
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px; /* Rounded button */
+  transition: background-color 0.3s ease;
+}
+
+.facility-link:hover {
+  background-color: #0056b3;
+}
+
+/* Centering the 'Facilities' heading */
+.facility-heading {
+  text-align: center;
+  margin-top: 50px; /* Add space from the top */
+  font-size: 2rem; /* Increase font size */
+  height: 60px; /* Increase height */
+  line-height: 60px; /* Center vertically */
+  width: 100%; /* Make it full width */
+}
